@@ -2,7 +2,7 @@ Auth:
   project_token: df55728f-62c2-4889-8b36-7d881e37b0d0
   customer_token: 4941f85a-5453-4f94-9247-d5565b4bd116
 SAST:
-  language: java
+  language: semgrep
 SCA:
   language: java
 Secret_Scan: true
