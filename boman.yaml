@@ -1,5 +1,7 @@
 Auth:
-  project_token: a309b450-f6d5-483e-8754-3d97e696ed12
+  project_token: ce6c063e-c1e6-477d-99e9-5d9c007b57c2
   customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
-SAST:
-  language: semgrep
+container_scan:
+  type: config
+  target: ''
+SBOM: true
