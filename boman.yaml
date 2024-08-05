@@ -1,4 +1,6 @@
 Auth:
   project_token: ce6c063e-c1e6-477d-99e9-5d9c007b57c2
   customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
+container_scan:
+  type: config
 SBOM: true
