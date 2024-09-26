@@ -1,5 +1,16 @@
 Auth:
-  project_token: 6e7031b6-6cf4-498c-aec5-4b909cc38965
-  customer_token: 1d747e85-40c3-4e2c-98ff-6af0ed1a721f
+  project_token: 0275abad-2ca6-4291-96ca-815bcc540e6f
+  customer_token: 41bb9111-e57f-43d9-aa15-8c2e751ddb36
+SAST:
+  language: semgrep
+DAST:
+  type: WEB
+  URL: https://demo.testfire.net/
 SCA:
   language: java
+Secret_Scan: true
+container_scan:
+  type: config
+  target: ''
+SBOM: true
+IAC: true
