@@ -46,6 +46,7 @@ POLICY
 # Secrets manager challenge 2 #
 ###############################
 
+
 resource "aws_secretsmanager_secret" "secret_2" {
   name                    = "wrongsecret-2"
   recovery_window_in_days = 0
