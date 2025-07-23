@@ -2,11 +2,6 @@
 
 name: Bomanai Scanner
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,4 +19,4 @@ jobs:
       - name: Install packages
         run: sudo pip install boman-cli
       - name: Run scan  
-        run: sudo boman-cli -a run
+        run: sudo boman-cli -a run -at 0275abad-2ca6-4291-96ca-815bcc540e6f -ct 41bb9111-e57f-43d9-aa15-8c2e751ddb36
