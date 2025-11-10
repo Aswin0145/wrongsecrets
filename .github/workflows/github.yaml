@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with boman.ai
 
-name: Bomanai Scanner
+name: Bomanai Scanner QA
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  # push:
+  #   branches: [ master ]
+  # pull_request:
+  #   branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,5 +27,5 @@ jobs:
         run: sudo pip install boman-cli==2.5.1
       - name: Run scan  
         # run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at c1a460db-9fca-4d9f-88c5-d733db71dd44 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
-        # run: sudo boman-cli -a run -u https://qa.boman.ai -at c1a460db-9fca-4d9f-88c5-d733db71dd44 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
-        run: sudo boman-cli -a run -u https://qa.boman.ai -at c2f54236-9ebd-4c51-b08b-2816dfbea5a6 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
+        run: sudo boman-cli -a run -u https://qa.boman.ai -at c1a460db-9fca-4d9f-88c5-d733db71dd44 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
+        # run: sudo boman-cli -a run -u https://qa.boman.ai -at c2f54236-9ebd-4c51-b08b-2816dfbea5a6 -ct 48bbf89e-b5c7-419e-8f56-6f00b53a6a86
