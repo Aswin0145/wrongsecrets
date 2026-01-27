@@ -43,7 +43,7 @@
   <!--        </snapshotRepository>-->
   <!--    </distributionManagement>-->
   <properties>
-    <KeePassJava2.version>2.2.1</KeePassJava2.version>
+    <KeePassJava2.version>2.2.2</KeePassJava2.version>
     <asciidoctor.maven.plugin.version>2.2.5</asciidoctor.maven.plugin.version>
     <asciidoctorj.version>2.5.11</asciidoctorj.version>
     <aws.sdk.version>2.23.15</aws.sdk.version>
@@ -536,8 +536,8 @@
               <includes>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace></trimTrailingWhitespace>
-              <endWithNewline></endWithNewline>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <tabs>true</tabs>
                 <spacesPerTab>4</spacesPerTab>
@@ -549,7 +549,7 @@
               <include>src/main/java/**/*.java</include>
               <include>src/test/java/**/*.java</include>
             </includes>
-            <removeUnusedImports></removeUnusedImports>
+            <removeUnusedImports/>
             <googleJavaFormat>
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
@@ -617,7 +617,7 @@
         </os>
       </activation>
       <properties>
-        <script.extension></script.extension>
+        <script.extension/>
       </properties>
     </profile>
   </profiles>
