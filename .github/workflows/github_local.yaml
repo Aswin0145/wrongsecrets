@@ -18,4 +18,4 @@ jobs:
       - name: Install packages
         run: sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat
       - name: Run scan  
-        run: sudo boman-cli-uat -a run -u https://9f8f758e6c37.ngrok-free.app -at 23e8ae8c-aa39-4e27-a944-1195ce83000f -ct 4941f85a-5453-4f94-9247-d5565b4bd116
+        run: sudo boman-cli-uat -a run -u https://9f8f758e6c37.ngrok-free.app -at 96aa3729-139a-4ad4-ad3e-1f485284fa93 -ct 4941f85a-5453-4f94-9247-d5565b4bd116
